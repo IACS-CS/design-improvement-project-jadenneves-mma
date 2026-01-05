@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Design Improvement Project: Web Design Intro Class"
+    />
+    <title>Design Improvement Project</title>
+    <link rel="stylesheet" type="text/css" href="assignment.css" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <base href="./" />
+  </head>
+
+  <body>
+    <header class="app-header">
+      <!-- EDIT: You can customize the header with a more detailed
+       title or add an <h2> with more info / name if you want -->
+      <h1>Design Improvement Project</h1>
+    </header>
+    <!-- DO NOT EDIT  -->
+    <main class="app-main">
+      <!-- Frame for overall text -->
+      <!-- Explanation Section - EDIT THIS TEXT -->
+      <section class="showcase-section explanation-section">
+        <div class="section-content">
+          <!-- End DO-NOT-EDIT SECTION -->
+          <h2>My Design Improvement</h2>
+          <!-- ✏️ EDIT: Write a summary of the design you chose to improve -->
+          <p>
+            For this project, I chose a design I thought I could improve on.
+            Here are the problems I identified with the initial design:
+          </p>
+          <!-- ✏️ EDIT: Replace these with the actual problems in the original design -->
+          <ul>
+            <li>List problem</li>
+            <li>List other problem</li>
+            <li>List still other problem</li>
+          </ul>
+          <p>Here are the improvements I made:</p>
+          <!-- ✏️ EDIT: Replace these with your actual improvements -->
+          <!-- Suggestions: CRAG (contrast/repetition/alignment/grouping),
+             color matching, whitespace, typography, etc. -->
+          <ul>
+            <li>List improvement</li>
+            <li>List other improvement</li>
+            <li>List still other improvement</li>
+          </ul>
+        </div>
+        <!-- End of explanation/text section -->
+      </section>
+
+      <!-- Comparison Section -->
+      <!-- DO NOT EDIT... -->
+      <section class="showcase-section comparison-section">
+        <div class="designs-container">
+          <!-- Original Design -->
+          <div class="design-wrapper original-wrapper">
+            <div class="design-header">
+              <h3>Original Design</h3>
+              <button
+                class="popout-btn"
+                data-target="original"
+                title="View at full size"
+              ></button>
+              <!-- Pop-Out button -->
+            </div>
+            <div class="design-viewport">
+              <!-- ✏️ EDIT: Add the image URL of the original design you're improving -->
+              <img class="design-image" src="" alt="Original design" />
+            </div>
+            <!-- ✏️ EDIT: Add where you found this design (source/URL/etc) -->
+            <p class="design-attribution">
+              Attribution: <i>Where did you find the original image</i>
+            </p>
+          </div>
+
+          <!-- Improved Design Header, Frame, etc-->
+          <!-- DO NOT EDIT  -->
+          <div class="design-wrapper improvement-wrapper">
+            <div class="design-header">
+              <h3>My Improvement</h3>
+              <!-- Improvement header -->
+              <button
+                class="popout-btn"
+                data-target="improvement"
+                title="View at full size"
+              ></button>
+              <!-- Pop-Out button -->
+            </div>
+            <div class="design-viewport">
+              <!-- "Card" with improvement -->
+
+              <div class="my-design design-size">
+                <!-- END OF DO-NOT-EDIT SECTION -->
+                <!-- ✏️ EDIT: DELETE the sample text below and add your HTML design code here -->
+                <!-- ✏️ TIP: Style your design using .my-design rules in styles.css -->
+                <h1>Hello World</h1>
+                <p>Fix me with student's own design</p>
+
+                <!-- END YOUR DESIGN HERE -->
+              </div>
+              <!-- DO NOT EDIT BELOW -->
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- No need to edit below -->
+    <!-- Modal for full-size design viewing -->
+    <div class="design-modal" id="designModal">
+      <div class="modal-backdrop"></div>
+      <div class="modal-content">
+        <button class="modal-close-btn" title="Close"></button>
+        <div class="modal-viewport" id="modalViewport"></div>
+      </div>
+    </div>
+  </body>
+  <script src="assignment-code.js"></script>
+</html>

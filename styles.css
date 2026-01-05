@@ -1,0 +1,34 @@
+.design-size {
+  /* ✏️ EDIT: Adjust width and height to match your design dimensions.
+     Examples:
+     - Standard Google Slide: 960px × 720px (4:3 aspect ratio)
+     - Widescreen Slide: 1280px × 720px (16:9 aspect ratio)
+     - Custom: Set to your design's actual dimensions
+  */
+  width: 960px;
+  height: 720px;
+}
+
+/* ✏️ EDIT: Add your CSS styling for the design here!
+   IMPORTANT: Nest all your rules inside .my-design so they only affect YOUR design.
+   Example:
+   
+   .my-design {
+     background: #f0f0f0;
+     padding: 20px;
+     
+     h1 {
+       color: #333;
+       font-size: 48px;
+     }
+   }
+*/
+
+.my-design {
+  /* ✏️ Delete this sample and add your design rules here */
+  h1 {
+    color: green;
+    font-size: 88px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+  }
+}
