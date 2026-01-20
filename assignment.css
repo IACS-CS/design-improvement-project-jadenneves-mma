@@ -27,16 +27,16 @@
 
   /* ====== COLORS ====== */
   /* Primary colors */
-  --color-accent: #0d6efd;
-  --color-accent-dark: #0a58ca;
+  --color-accent: #000000;
+  --color-accent-dark: #f08b1f;
   --color-accent-light: #e7f1ff;
-  --color-accent-header-light: #f0f5ff;
+  --color-accent-header-light: #aa3db8;
 
   /* Neutral colors */
   --color-bg: #f8f9fa;
   --color-surface: #ffffff;
   --color-text: #212529;
-  --color-text-light: #6c757d;
+  --color-text-light: #ee7d12;
   --color-border: #e9ecef;
   --color-viewport-bg: #fafbfc;
 

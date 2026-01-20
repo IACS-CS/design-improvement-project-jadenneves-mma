@@ -24,11 +24,79 @@
    }
 */
 
+/* Code generated in response to prompt: "create a wanted poster with better colors using Option C: medium blue background, white text, gold headings, and mascot image on the right" with GitHub Copilot using Claude Haiku 4.5 */
 .my-design {
-  /* ✏️ Delete this sample and add your design rules here */
+  background-color: #003d7a; /* Medium blue - school spirit */
+  color: #ffffff; /* White text */
+  padding: 40px;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: flex-start;
+
+  .poster-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .poster-text {
+    flex: 1;
+  }
+
+  .poster-mascot {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+  }
+
+  .mascot-image {
+    max-width: 280px;
+    height: auto;
+    object-fit: contain;
+  }
+
   h1 {
-    color: green;
-    font-size: 88px;
-    font-family: "Comic Sans MS", cursive, sans-serif;
+    color: #ffd700; /* Gold "Wanted" heading */
+    font-size: 64px;
+    font-weight: bold;
+    text-align: left;
+    margin: 0;
+  }
+
+  h2 {
+    color: #ffd700; /* Gold for subheadings */
+    font-size: 28px;
+    margin: 0;
+  }
+
+  p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 10px 0;
+  }
+
+  ul {
+    margin: 15px 0;
+    padding-left: 20px;
+  }
+
+  li {
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 8px 0;
+  }
+
+  a {
+    color: #ffd700; /* Gold for links */
+    text-decoration: underline;
+    font-weight: bold;
+  }
+
+  a:hover {
+    color: #fff; /* White on hover */
   }
 }
+/* End generated code */
