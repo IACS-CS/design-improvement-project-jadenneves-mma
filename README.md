@@ -2,7 +2,7 @@
 [![Open in Codespaces](https://classroom.github.com/assets/launch-codespace-2972f46106e565e64193e422d61a12cf1da4916b45550586e14ef0a7c637dd04.svg)](https://classroom.github.com/open-in-codespaces?assignment_repo_id=22133077)
 # Design Improvement Project
 
-## Task
+## Task 
 
 Pick a piece of existing design (such as a [Morning Announcements](https://docs.google.com/presentation/d/1x-mqD_2JWQJQyo00htRrQIDKbsNAxmn8EzV-dGGAUm0/edit?slide=id.g228d81432e6_1_245#slide=id.g228d81432e6_1_245) slide or a mediocre website for e.g. a local pizza place that you believe you can improve using your newfound design skills.
 

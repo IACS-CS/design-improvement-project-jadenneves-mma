@@ -1,4 +1,4 @@
-# Instructions for AI Agents Assisting with This Project
+i# Instructions for AI Agents Assisting with This Project
 
 ## Project Overview
 
